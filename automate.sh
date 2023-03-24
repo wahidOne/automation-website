@@ -1,5 +1,4 @@
-sudo apt-get update -y
-sudo apt-get install httpd wget unzip -y
+yum install httpd wget unzip -y
 systemctl start httpd
 systemctl enable httpd
 cd /tmp/
